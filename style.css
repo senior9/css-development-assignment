@@ -1,0 +1,116 @@
+.navbar{
+  background-color: #242323;
+}
+.navbar-nav{
+  gap: 12px;
+}
+
+.nav-items  a{
+    font-style: normal;
+    text-transform: none;
+    letter-spacing: 0.05em;
+    font-size: 15px;
+    font-family: quicksand,sans-serif;
+    font-weight: 600;
+    
+}
+.navbar-nav .dropdown:hover > .dropdown-menu {
+    display: block;
+    /* color: yellow; */
+  }
+  .dropdown-menu.analysis-tools {
+    width: 1420px;
+    margin: 0 auto;
+    background-color: lightgray;
+    margin-left: -500px;
+    /* z-index: -1; */
+  }
+  
+  .nav-item .nav-link:hover {
+    color: yellow !important;
+  }
+  .col a:hover{
+    color: #03a413;
+    background: none;
+  }
+  .btnn{
+    width: 137px;
+    height: 40px;
+    background-color: #03a413;
+    color: white;
+    border-radius: 3px;
+    border: none;
+  }
+  .logo-navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .logo img{
+    height: 45px;
+  }
+  input[type="search"] {
+    border: none;
+    border-bottom: 1px solid gray;
+    text-align: center; /* Move placeholder text to the right */
+    padding-left: 20px;
+    width: 437px;
+    background-color: transparent;
+  }
+  input[type="search"]:focus {
+    background-color: transparent;
+    outline: none; /* Remove background color on focus */
+  }
+  .input-ico{
+   
+    margin-right: -20px;
+  }
+  .input-contaiiner{
+    display: flex;
+    align-items: center;
+  }
+  .content{
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  .career-path span{
+    color: #03a413;
+  }
+  .career-path h3{
+    font-size: 50px;
+    font-weight: 600;
+  }
+  .paragraph{
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .btn-group{
+    gap: 25px;
+  }
+  .icon-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .img-ico img{
+    width: 24px;
+    height: 24px;
+    margin-right: 3px;
+  }
+ 
+
+  /* media query */
+  @media (min-width: 268px) and (max-width: 1220px) {
+    .content {
+      flex-direction: column;
+    }
+    .logo-navbar{
+      flex-direction: column;
+      column-gap: 10px;
+    }
+
+  }
+  
